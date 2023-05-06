@@ -10,10 +10,11 @@ int main()
 
     int Age[5] = {23,24,20,22,19};
 
+
     printf("%d\n",Sagar);
 
     printf("%d\n",Age[0]);
-    printf("%d\n",Age[1]);
+    printf("%d\n",Age[1]);    
     printf("%d\n",Age[2]);
     printf("%d\n",Age[3]);
     printf("%d\n",Age[4]);

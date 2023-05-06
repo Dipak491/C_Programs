@@ -1,7 +1,7 @@
 #include<stdio.h>
+
 int main()
 {
-
     char ch = 'A';
     int i = 11;
     float f = 3.14;
@@ -10,7 +10,7 @@ int main()
     char *cp = &ch;
     int *ip = &i;
     float *fp = &f;
-    double *dp= &d;
+    double *dp = &d;
 
     void *vp = NULL;
     vp = &ch;
@@ -23,9 +23,5 @@ int main()
     vp = &f;
     printf("%f\n",*(float *)vp);
 
-    vp = &d;
-    printf("%f\n",*(double *)vp);
-
     return 0;
-
 }

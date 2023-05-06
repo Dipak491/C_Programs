@@ -1,11 +1,15 @@
 #include<stdio.h>
-void Display()
-{
-    printf("Jay Ganesh...\n");
-}
+
 int main()
 {
-    printf("inside main.\n");
-    Display();
+    // Local variables
+    int No1 = 10;
+    int No2 = 11;
+    int Ans = 0;
+
+    Ans = No1 + No2;
+
+    printf("%d",Ans);   // 21
+
     return 0;
 }

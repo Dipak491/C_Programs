@@ -1,23 +1,24 @@
-#include<stdio.h>
+                #include<stdio.h>
 
-int Multiplication(int A,  int B)
-{
-    int Ans = 0;
-    Ans = A*B;
-    return Ans;
-}
+                int Multiplication(int A, int B)
+                {
+                    int Ans = 0;
 
-int main()
-{
-    int No1 = 10;
-    int No2 = 11;
+                    Ans = A * B;
 
-    int Ret = 0;
+                    return Ans;
+                }
 
-    Ret = Multiplication(No1,No2);
+                int main()
+                {
+                    int No1 = 10;
+                    int No2 = 11;
 
-    printf("Multiplication is : %d\n",Ret);
+                    int Ret = 0;
 
-    return 0;
+                    Ret = Multiplication(No1,No2);
 
-}
+                    printf("Multiplication is : %d\n",Ret);
+
+                    return 0;
+                }

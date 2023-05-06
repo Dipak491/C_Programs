@@ -3,11 +3,10 @@
 int main()
 {
     int No = 11;
-    int *p = NULL;
 
-    p = &No;
+    int *p = &No;
 
-    printf("%d\n",*p); // 11
+    int *q = &No;
 
     return 0;
 }
